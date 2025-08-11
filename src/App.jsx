@@ -182,7 +182,6 @@ export default function App() {
               </div>
               <div className="flex gap-2">
                 <button onClick={()=>{setSelectedDayIndex(0); setScreen('mission')}} className="px-4 py-2 bg-sky-500 rounded">Start Mission</button>
-                <button onClick={()=>setScreen('settings')} className="px-3 py-2 bg-slate-700 rounded">Settings</button>
               </div>
             </div>
 
